@@ -813,8 +813,8 @@ global.dfail = (type, m, conn) => {
 ⬡ Kalau tidak kelihatan button nya, contohnya dibawah!
 ┗━━━━━━━━━━━━━━━━━━❑
 ┏━━〔 ıll CONTOH llı 〕━❑
-⬡ #daftar namamu.umurmu
-⬡ #daftar @${m.sender.split`@`[0]}.18
+⬡ .daftar namamu.umurmu
+⬡ .daftar @${m.sender.split`@`[0]}.18
 ┗━━━━━━━━━━❑ `
   }[type]
  if (unreg) return conn.sendBut(m.chat, unreg, '❑ Silahkan Klik reg dibawah ini ❑', 'Register', `.daftar @${m.sender.split`@`[0]}.18`, m)
