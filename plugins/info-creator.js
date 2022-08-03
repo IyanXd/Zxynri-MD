@@ -24,7 +24,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let rozi = 'https://telegra.ph/file/6de3ca8fe283f2e236ec4.jpg'
+let rozi = 'https://telegra.ph/file/d08b8727f867519c53419.jpg'
 await conn.send3ButtonImg(m.chat, rozi, "*Hai kak👋,  Itu nomor owner gw…*", '📮: jngn di spam kack', 'Source code', '.sc', 'Back', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
