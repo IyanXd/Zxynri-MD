@@ -38,7 +38,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     itemCount : 20290,
     status: 1,
     surface : 1,
-    message: `❏ zifabotz`, 
+    message: `❏ AwaaBot`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/ad0f27b9d5e469827e654.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 

@@ -14,38 +14,38 @@ Bot ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendow
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '[❗] Silahkan pilih Command Dibawah ini',
+           hydratedFooterText: '[❗] Silahkan Pilih Command Dibawah ini',
            hydratedButtons: [{
              urlButton: {
-               displayText: '🔮GroupBot🔮',
+               displayText: 'Group',
                url: gc
              }
 
            },
                 {
                urlButton: {
-               displayText: '🐻Instagram creator🐻',
+               displayText: 'Instagram',
                url: web
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'PATUHI RULES BOT',
+               displayText: 'Rules',
                id: '.snk',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'SOURCE CODE',
+               displayText: 'Source Code',
                id: '.sc',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: 'COMMAND',
+               displayText: 'Command',
                id: '.zifa',
              }
 

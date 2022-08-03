@@ -3,11 +3,11 @@ let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
 •·––––––––––––––––––––––––––·•
-❑ *Nama* : Rozi
-❑ *Umur* : 15 Tahun
-❑ *Kelas* : 1 SMA
-❑ *Ulang Tahun* : 4 juli 2007
-❑ *Alamat* : Indonesia, Kalimantan barat, Pontianak
+❑ *Nama* : Iyan
+❑ *Umur* : ?
+❑ *Kelas* : ?
+❑ *Ulang Tahun* : ?
+❑ *Alamat* : Indonesia, Jawa Timur, Pasuruan
 •·––––––––––––––––––––––––––·•
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya7)).buffer()}, { upload: conn.waUploadToServer }) 
@@ -16,24 +16,24 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'salam kenal bang👋',
+           hydratedFooterText: 'Salam kenal bang👋',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'GroupBot 🐈',
+               displayText: 'Group',
                url: gc
              }
 
            },
                 {
                urlButton: {
-               displayText: '🌍 Link Instagram 🌍',
+               displayText: 'Instagram',
                url: web
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Sewa Bot',
+               displayText: 'Sewa',
                id: '.sewazifa',
              }
              
@@ -47,7 +47,7 @@ let krizyn = `
              },
                {
              quickReplyButton: {
-               displayText: 'Donasi bang',
+               displayText: 'Donasi',
                id: '.donasi',
              }
 

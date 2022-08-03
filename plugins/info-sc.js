@@ -12,27 +12,13 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'subscribe banh!',
+           hydratedFooterText: 'IyanOffc!',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'SOURCE CODE 🐈',
+               displayText: 'Source Code',
                url: sc
              }
 
-           },
-                {
-               urlButton: {
-               displayText: '🌍 Instagram 🌍',
-               url: webm
-             }
-
-           },
-               {
-             quickReplyButton: {
-               displayText: 'Dapatkan session',
-               id: '.tutorialsession',
-             }
-             
            },
                {
              quickReplyButton: {

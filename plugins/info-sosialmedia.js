@@ -38,14 +38,14 @@ urlButton: {
            },
                {
              quickReplyButton: {
-               displayText: 'STORE',
+               displayText: 'Store',
                id: '.store',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'BIODATA CREATOR',
+               displayText: 'BioData Owner',
                id: '.biodata',
              }
 

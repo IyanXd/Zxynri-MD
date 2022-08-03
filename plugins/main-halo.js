@@ -25,8 +25,8 @@ Runtime: ${uptime}`
     status: 1,
     surface : 1,
     message: `2022 © ${namebot}, 
-    orderTitle: `zifabotz_offc`,
-    thumbnail: 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg', 
+    orderTitle: `IyanOffc`,
+    thumbnail: 'https://telegra.ph/file/53cd462c256e51328a879.jpg', 
     sellerJid: '0@s.whatsapp.net' 
     }
     }

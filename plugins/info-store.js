@@ -8,8 +8,9 @@ let krizyn = `
 «================»
 ››╭─〘 *Store* 〙
 ╭╡📮: Store owner kami.
-│┝‷✧ *jasa run bot:*
-│┝‷✧ *jasa jadi bot:*
+│┝‷✧ *Jasa run bot:*
+│┝‷✧ *Jasa jadi bot:*
+│┝‷✧ *Jasa sewa bot:*
 │╰───···─────
 │⁺◛˖ Ingin membeli store owner? Chat owner aja…
 ╰──────────···───
@@ -23,14 +24,7 @@ let krizyn = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'YouTube creator🌱',
-               url: yt
-             }
-
-           },
-                {
-               urlButton: {
-               displayText: '🌍 Instagram 🌍',
+               displayText: 'Instagram🌱',
                url: webm
              }
 

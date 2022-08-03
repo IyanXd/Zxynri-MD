@@ -14,7 +14,7 @@ krizyn = {
         }
        } 
      }
-conn.sendImageAsSticker(m.chat, 'https://telegra.ph/file/06a27a93b66f63a5a067e.jpg', krizyn, { packname: "Krizyn Ofc", author: "@mhdfakri_" })
+conn.sendImageAsSticker(m.chat, 'https://telegra.ph/file/06a27a93b66f63a5a067e.jpg', krizyn, { packname: "AwaaBot", author: "@IyanOffc" })
 }
 
 handler.customPrefix = /^(Terima Kasih|Thanks|tq|makasih)$/i

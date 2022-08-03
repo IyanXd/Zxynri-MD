@@ -1,6 +1,6 @@
 /*============== Jangan di ganti! ==============*/
 
-const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
+/*const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
@@ -40,4 +40,4 @@ let krizyn = `
 handler.tags = ['main', 'info']
 handler.command = /^(tutorialsession)$/i
 handler.help = ['tutorialsesison']
-module.exports = handler
+module.exports = handler*/

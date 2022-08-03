@@ -18,7 +18,7 @@ let handler = async (m, { conn }) => {
       year: 'numeric'
     }).format(d)
 
-let krizyn = `┏━━━〔 ıll *WAKTU PERJALANAN BOT* llı 〕
+let krizyn = `┏━━━〔 ıll *Aktif* llı 〕
 ━━❑
 ⬡ *runtime:* ${uptime}
 ⬡ *time:* ${wib}

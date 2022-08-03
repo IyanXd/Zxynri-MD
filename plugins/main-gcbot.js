@@ -16,23 +16,16 @@ let krizyn = `
            hydratedButtons: [{
              urlButton: {
                displayText: '🐣Via link gc🐣',
-               url: 'https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv'
+               url: 'https://chat.whatsapp.com/EVwtTcTdkIf1SBetn69gJt'
              }
 
            },
                 {
                urlButton: {
                displayText: '🪀Wa owner🪀',
-               url: 'https://wa.me/message/LSVGQQPG6FUQF1'
+               url: 'https://wa.me/qr/KG5NZYFYT7TVA1'
              }
 
-           },
-               {
-             quickReplyButton: {
-               displayText: 'sewa',
-               id: '.sewazifa',
-             }
-             
            },
                {
              quickReplyButton: {

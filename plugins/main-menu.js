@@ -303,7 +303,7 @@ let menuu = `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `©️ *Zifabotz-MD*`.trim(),
+                        "description": `©️ *AwaaBot-MD*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "Click Here",
             listType: 1,
@@ -524,36 +524,29 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '🔮INSTAGRAM🔮',
+               displayText: 'Instagram',
                url: webm
              }
 
            },
              {
              urlButton: {
-               displayText: '🎮GROUP BOT🎮', 
+               displayText: 'Group', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🧸 Owner',
+               displayText: '🧸Owner',
                id: '.owner',
-             }
-
-           },
-               {
-             quickReplyButton: {
-        displayText: '💳 Sewa',
-               id: '.sewazifa',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: 'Group Offcial',
-               id: '.gcbot',
+               displayText: '💳 Sewa',
+               id: '.sewazifa',
              }
            }]
          }

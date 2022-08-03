@@ -3,23 +3,23 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: ᴹᴿ᭄ ZifaOffcོ_1ঔৣ꧂
-item.ORG: ᴹᴿ᭄ ZifaOffcོ_1ঔৣ꧂
-item1.TEL;waid=6285828377610:6285828377610@s.whatsapp.net
-item1.X-ABLabel:owner selalu ada 
-item2.EMAIL;type=INTERNET: anidaanida59@gmail.com
+FN: ᴹᴿ᭄ IyanOffcོ_1ঔৣ꧂
+item.ORG: ᴹᴿ᭄ IyanOffcོ_1ঔৣ꧂
+item1.TEL;waid=62895323413434:62895323413434@s.whatsapp.net
+item1.X-ABLabel:Call Me😝
+item2.EMAIL;type=INTERNET: yanslemek@gmail.com
 item2.X-ABLabel:📧Email
-item3.ADR:;;🎍Pontianak;;;;
+item3.ADR:;;🎍Pasuruan;;;;
 item3.X-ABADR:ac
-item3.X-ABLabel:asal kota
-item4.URL:https//github.com/Botynyakamu
+item3.X-ABLabel:Asal Kota
+item4.URL:https//github.com/IyanXd
 item4.X-ABLabel:Website
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
     m.chat,
     { 
         contacts: { 
-            displayName: 'OWNER BOT', 
+            displayName: 'Owner Awaa', 
             contacts: [{ vcard }]  
         }
     }

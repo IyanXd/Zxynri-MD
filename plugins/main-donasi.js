@@ -8,6 +8,8 @@ Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ⬡ *DANA:* ${dana}
 ⬡ *GOPAY:* ${gopay}
 ⬡ *OVO:* ${pulsa}
+⬡ *PULSA:* 0805323413434
+⬡ *PULSA2:* 085806151497
 ┗━━━━━━━━━━━━━━━━━━❑
 ┏━━〔 ıll *THANKS TO* llı 〕━❑
 ⬡ team creator-creator
@@ -41,7 +43,7 @@ wa.me/${numberowner} (Owner)
            },
                {
              quickReplyButton: {
-               displayText: 'sewa',
+               displayText: 'Sewa',
                id: '.sewazifa',
              }
              
