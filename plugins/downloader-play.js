@@ -46,7 +46,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     }
     }
   await conn.send3ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `
-*PLAY ZIFABOTZ*
+*PLAY AWAABOT*
 ├●───────────────┤
 ◁ㅤ ❚❚ㅤ▷
 ┏┉━━━━━━━━━━━❏
